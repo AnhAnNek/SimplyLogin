@@ -1,5 +1,6 @@
 package com.example.simplylogin;
 
+<<<<<<< HEAD
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -23,10 +24,19 @@ public class SecondActivity extends AppCompatActivity {
     TextView name, email;
     Button signOutBtn;
 
+=======
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+public class SecondActivity extends AppCompatActivity {
+
+>>>>>>> master
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
+<<<<<<< HEAD
 
         name = findViewById(R.id.name);
         email = findViewById(R.id.email);
@@ -59,5 +69,7 @@ public class SecondActivity extends AppCompatActivity {
                 startActivity(new Intent(SecondActivity.this, MainActivity.class));
             }
         });
+=======
+>>>>>>> master
     }
 }
